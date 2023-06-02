@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deviner </title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1>Jeu de devinette</h1>
+        <p class="explicationJeu">Le but du jeu est de deviner le nombre qui est choisi aléatoirement par l'ordinateur</p>
+        <br>
+        
+        <div class="vosNombres">
+            <div class="entrerInput">
+                <label for="mettreVotreNombre">Mettez votre nombre</label>
+        
+                <input type="text" id="mettreVotreNombre">
+            </div>
+           
+    
+            <button id="boutonVerif">Vérifier</button>
+            <button id="rejouer">Rejouer</button>
+    
+            <br>
+            <br>
+        </div>
+       
+
+        <button class="niveauFacile">Niveau Facile</button>
+        <button class="niveauMoyen">Niveau Moyen</button>
+        <button class="niveauDifficile">Niveau Difficile</button>
+        <p id="texteVerificationNombre"></p>
+        <p id="tropHautOuBas"></p>
+        <p id="combienDeTentative"></p>
+    </form>
+</body>
+</html>
