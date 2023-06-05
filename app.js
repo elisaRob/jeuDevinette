@@ -144,7 +144,7 @@ function verifierEgalite(){
         // effacer('autreNouvelElement')
         elCombienDeTentative.textContent='';
         decompte(compteur);
-        // zoneHistorique();
+        zoneHistorique();
     }else{
         elPargrapheVerification.textContent="Vous avez perdu j'ai réinitialiser";
         genererLeNombre();
